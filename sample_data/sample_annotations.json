@@ -1,0 +1,123 @@
+{
+  "info": {
+    "description": "Synthetic demonstration data for AfriLabel QA Studio.",
+    "notice": "These are invented example records, not photographs or real-world collected data."
+  },
+  "images": [
+    {
+      "id": 1,
+      "file_name": "synthetic_matatu_scene_01.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": 2,
+      "file_name": "synthetic_boda_scene_02.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": 3,
+      "file_name": "synthetic_market_scene_03.jpg",
+      "width": 640,
+      "height": 480
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "matatu"
+    },
+    {
+      "id": 2,
+      "name": "boda_boda"
+    },
+    {
+      "id": 3,
+      "name": "pedestrian"
+    },
+    {
+      "id": 4,
+      "name": "traffic_light"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 101,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        120,
+        150,
+        420,
+        260
+      ]
+    },
+    {
+      "id": 102,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        650,
+        180,
+        70,
+        210
+      ]
+    },
+    {
+      "id": 103,
+      "image_id": 2,
+      "category_id": 2,
+      "bbox": [
+        220,
+        240,
+        180,
+        150
+      ]
+    },
+    {
+      "id": 104,
+      "image_id": 2,
+      "category_id": 4,
+      "bbox": [
+        1190,
+        80,
+        120,
+        180
+      ]
+    },
+    {
+      "id": 105,
+      "image_id": 3,
+      "category_id": 3,
+      "bbox": [
+        80,
+        100,
+        0,
+        90
+      ]
+    },
+    {
+      "id": 106,
+      "image_id": 3,
+      "category_id": 99,
+      "bbox": [
+        100,
+        120,
+        90,
+        100
+      ]
+    },
+    {
+      "id": 107,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        120,
+        150,
+        420,
+        260
+      ]
+    }
+  ]
+}
